@@ -29,13 +29,13 @@ https://nodejs.org/en/download/
 
 Clone repository on your server:
 ```
-$> git clone https://github.com/FreedomPrevails/JSMTProxy.git
+$> git clone https://github.com/bezzad/JSMTProxy.git
 ```
 Enter JSMTProxy directory and edit config file (config.json) if you wish. You can change the secret and listening port. it is in json format.
 
     {
-      "port":6969,
-      "secret":"b0cbcef5a486d9636472ac27f8e11a9d"
+      "port":8008,
+      "secret":"beeaadf5a486d9636472ac27f8beeaad"
     }
 Start the app in cluster mode using pm2:
 ```
