@@ -1,7 +1,6 @@
-const version='1.0.0';
-const author='FreedomPrevails';
-const github='https://github.com/FreedomPrevails/JSMTProxy';
-
+const version='1.0.1';
+const author='bezzad';
+const github='https://github.com/bezzad/JSMTProxy';
 const net = require('net');
 const crypto = require('crypto');
 const exec = require('child_process').exec;
