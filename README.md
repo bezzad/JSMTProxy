@@ -47,6 +47,15 @@ $> pm2 list
 $> pm2 log mtproxy
 $> pm2 show mtproxy
 ```
+
+Suppose your pm2 is running having some processes. First, you need to save the processes.
+
+`pm2 save`
+
+Next, you need to run the pm2 in startup. So if system rebooted your pm2 automatically started with processes.
+
+`pm2 startup`
+
 ## Windows Installation
 
 Download and install NodeJS for Windows using this link: https://nodejs.org/dist/v8.11.2/node-v8.11.2-x64.msi
