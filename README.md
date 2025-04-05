@@ -79,4 +79,4 @@ Start the proxy server from "Command Prompt" by following command:
 pm2 start mtproxy.js -i max
 ```
 
->> Note: You may need to open the proxy port number in your Windows firewall in order for it to accept connections.
+> Note: You may need to open the proxy port number in your Windows firewall in order for it to accept connections.
