@@ -36,15 +36,15 @@ git clone https://github.com/bezzad/JSMTProxy.git
 
 Enter JSMTProxy directory and edit config file (config.json) if you wish. You can change the secret and listening port. it is in json format.
 ```
-    {
-      "port":8008,
-      "secret":"beeaadf5a486d9636472ac27f8beeaad"
-    }
+{
+  "port":8008,
+  "secret":"beeaadf5a486d9636472ac27f8beeaad"
+}
 ```
 
 Start the app in cluster mode using pm2:
 
-`pm2 start mtproxy.js -i max`
+```pm2 start mtproxy.js -i max```
 
 You can use pm2 to list running processes and check their logs:
 ```
@@ -55,11 +55,11 @@ pm2 show mtproxy
 
 Suppose your pm2 is running having some processes. First, you need to save the processes.
 
-`pm2 save`
+```pm2 save```
 
 Next, you need to run the pm2 in startup. So if system rebooted your pm2 automatically started with processes.
 
-`pm2 startup`
+```pm2 startup```
 
 ## Windows Installation
 
